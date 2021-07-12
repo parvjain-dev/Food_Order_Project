@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+.burger{
+    width: 174px;
+position: relative;
+top: 16px;
+left: 58px;
+border-radius: 31px
+}
+.bur{
+    text-align: center;
+font-weight: bolder;
+font-size: larger;
+margin-top: 40px;
+font-family: 'Josefin Sans', sans-serif;
+}
+.boxh2{
+    text-align: center;
+    position: relative;
+    top: 23px;
+}

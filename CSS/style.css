@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Goblin+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arvo:wght@700&family=Goblin+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  position: sticky;
+}
+.navbar::before {
+  content: " ";
+  background: #000;
+  width: 100%;
+  height: 12vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.33;
+}
+#Log {
+  border-radius: 50px;
+  width: 66px;
+  position: relative;
+  right: -16px;
+  top: 9px;
+}
+.navitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 74px;
+}
+.items {
+  padding-right: 29px;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-family: "Itim", cursive;
+  font-weight: bold;
+  font-size: large;
+}
+.items a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 50px;
+}
+#home::before {
+  content: " ";
+  background: url(../bg-1.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 642px;
+  z-index: -2;
+}
+#home {
+  color: aliceblue;
+  text-align: center;
+}
+.mainhead {
+  position: relative;
+  top: 100px;
+  font-size: 62px;
+  color: rgb(8, 8, 8);
+  font-weight: bolder;
+  font-family: "Itim", cursive;
+  height: 77px;
+}
+.mainpara {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  margin: 0px auto;
+  width: 779px;
+}
+.btn {
+  position: relative;
+  top: 175px;
+  width: 169px;
+  height: 59px;
+  border: 4px dashed #c80000;
+  background: #e8ab95;
+  border-radius: 14px;
+  color: #5b3535;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 24px;
+}
+.sec {
+  text-align: center;
+  position: relative;
+  top: 293px;
+  font-family: "Anton", sans-serif;
+  font-size: xxx-large;
+  font-weight: revert;
+}
+.cont {
+  display: flex;
+  position: relative;
+  top: 249px;
+  align-items: center;
+  justify-content: space-between;
+}
+.boxes {
+  height: 502px;
+  width: 296px;
+  background: #c8c6c6;
+  margin: 69px;
+  border: 3px solid #ffa0a0;
+  border-radius: 20px;
+}
+.container {
+  background: url("../Foodfisrt.jpg") no-repeat center;
+  width: 100%;
+  height: 374px;
+  position: relative;
+  top: 251px;
+  opacity: 0.4;
+}
+.containerHeading {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -105px;
+  font-size: 55px;
+  font-weight: bolder;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -60px;
+}
+#apple {
+  width: 187px;
+  position: relative;
+  right: 126px;
+  height: 134px;
+}
+#skype {
+  position: relative;
+  left: 160px;
+  height: 137px;
+  width: 158px;
+}
+.contact {
+  text-align: center;
+  position: relative;
+  top: 85px;
+  font-size: 46px;
+}
+.last::before {
+  content: "";
+  background: url("../contact.png") no-repeat center center/cover;
+  position: absolute;
+  top: 1725px;
+  left: 0px;
+  width: 100%;
+  height: 642px;
+  opacity: 0.6;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#name {
+  position: relative;
+  top: 179px;
+  left: -145px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#naam {
+  position: relative;
+  top: 184px;
+  left: 28px;
+  height: 26px;
+  width: 425px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+#contact {
+  position: relative;
+  top: 208px;
+  left: -104px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#conc {
+  position: relative;
+  top: 213px;
+  left: 28px;
+  height: 26px;
+  width: 425px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+#mail {
+  position: relative;
+  top: 234px;
+  left: -149px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#mal {
+  position: relative;
+  top: 240px;
+  left: 28px;
+  height: 26px;
+  width: 425px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+#Feed {
+  position: relative;
+  top: 263px;
+  left: -137px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#back {
+  position: relative;
+  top: 271px;
+  left: 28px;
+  height: 165px;
+  width: 425px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+footer {
+  display: flex;
+  background: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  height: 63px;
+  top: 313px;
+}
+footer p {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
